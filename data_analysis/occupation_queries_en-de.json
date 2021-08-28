@@ -1,0 +1,686 @@
+{
+  "broker": {
+    "src_forms": ["broker", "brokers"],
+    "tgt_forms_male": [
+      "Makler", "Maklers", "Maklern",
+      "Börsenmakler", "Börsenmaklers", "Börsenmaklern",
+      "Broker", "Brokers", "Brokern"
+    ],
+    "tgt_forms_female": [
+      "Maklerin", "Maklerinnen",
+      "Börsenmaklerin", "Börsenmaklerinnen",
+      "Brokerin", "Brokerinnen"
+    ]
+  },
+  "planner": {
+    "src_forms": ["planner", "planners"],
+    "tgt_forms_male": [
+      "Planer", "Planers", "Planern",
+      "Raumplaner", "Raumplaners", "Raumplanern"
+    ],
+    "tgt_forms_female": [
+      "Planerin", "Planerinnen",
+      "Raumplanerin", "Raumplanerinnen"
+    ]
+  },
+  "therapist": {
+    "src_forms": ["therapist", "therapists"],
+    "tgt_forms_male": [
+      "Therapeut", "Therapeuten"
+    ],
+    "tgt_forms_female": [
+      "Therapeutin", "Therapeutinnen"
+    ]
+  },
+  "instructor": {
+    "src_forms": ["instructor", "instructors"],
+    "tgt_forms_male": [
+      "Ausbilder", "Ausbilders", "Ausbildern",
+      "Lehrer", "Lehrers", "Lehrern",
+      "Instrukteur", "Instrukteurs", "Instrukteure", "Instrukteuren",
+      "Instruktor", "Instruktors", "Instruktoren",
+      "Dozent", "Dozenten"
+    ],
+    "tgt_forms_female": [
+      "Ausbilderin", "Ausbilderinnen",
+      "Lehrerin", "Lehrerinnen",
+      "Instrukteurin", "Instrukteurinnen",
+      "Instruktorin", "Instruktorinnen",
+      "Dozentin", "Dozentinnen"
+    ]
+  },
+  "inspector": {
+    "src_forms": ["inspector", "inspector"],
+    "tgt_forms_male": [
+      "Aufseher", "Aufsehers", "Aufsehern",
+      "Kontrolleur", "Kontrolleurs", "Kontrolleure", "Kontrolleuren",
+      "Inspekteur", "Inspekteurs", "Inspekteure", "Inspekteuren",
+      "Inspektor", "Inspektors", "Inspektoren"
+    ],
+    "tgt_forms_female": [
+      "Aufseherin", "Aufseherinnen",
+      "Kontrolleurin", "Kontrolleurinnen",
+      "Inspekteurin", "Inspekteurinnen",
+      "Inspektorin", "Inspektorinnen"
+    ]
+  },
+  "nurse": {
+    "src_forms": ["nurse", "nurses"],
+    "tgt_forms_male": [
+      "Krankenpfleger", "Krankenpflegers", "Krankenpflegern",
+      "Pfleger", "Pflegers", "Pflegern",
+      "Pflegefachmann", "Pflegefachmanns", "Pflegefachmannes", "Pflegefachmänner", "Pflegefachmännern"
+    ],
+    "tgt_forms_female": [
+      "Krankenpflegerin", "Krankenpflegerinnen",
+      "Pflegerin", "Pflegerinnen",
+      "Pflegefachfrau", "Pflegefachfrauen",
+      "Krankenschwester", "Krankenschwestern"
+    ]
+  },
+  "farmer": {
+    "src_forms": ["farmer", "farmers"],
+    "tgt_forms_male": [
+      "Bauer", "Bauern",
+      "Farmer", "Farmers", "Farmern",
+      "Landwirt", "Landwirts", "Landwirtes", "Landwirte", "Landwirten"
+    ],
+    "tgt_forms_female": [
+      "Bäuerin", "Bäuerinnen",
+      "Farmerin", "Farmerinnen",
+      "Landwirtin", "Landwirtinnen"
+    ]
+  },
+  "physician": {
+    "src_forms": ["physician", "physicians"],
+    "tgt_forms_male": [
+      "Arzt", "Arzts", "Arztes", "Ärzte", "Ärzten",
+      "Hausarzt", "Hausarzts", "Hausarztes", "Hausärzte", "Hausärzten",
+      "Facharzt", "Facharzts", "Facharztes", "Fachärzte", "Fachärzten",
+      "Notarzt", "Notarzts", "Notarztes", "Notärzte", "Notärzten",
+      "Familienarzt", "Familienarzts", "Familienarztes", "Familienärzte", "Familienärzten",
+      "Betriebsarzt", "Betriebsarzts", "Betriebsarztes", "Betriebsärzte", "Betriebsärzten",
+      "Militärarzt", "Militärarzts", "Militärarztes", "Militärärzte", "Militärärzten",
+      "Doktor", "Doktors", "Doktoren",
+      "Mediziner", "Mediziners", "Medizinern",
+      "Humanmediziner", "Humanmediziners", "Humanmedizinern",
+      "Sportmediziner", "Sportmediziners", "Sportmedizinern"
+    ],
+    "tgt_forms_female": [
+      "Ärztin", "Ärztinnen",
+      "Hausärztin", "Hausärztinnen",
+      "Fachärztin", "Fachärztinnen",
+      "Notärztin", "Notärztinnen",
+      "Familienärztin", "Familienärztinnen",
+      "Betriebsärztin", "Betriebsärztinnen",
+      "Militärärztin", "Militärärztinnen",
+      "Doktorin", "Doktorinnen",
+      "Medizinerin", "Medizinerinnen",
+      "Humanmedizinerin", "Humanmedizinerinnen",
+      "Sportmedizinerin", "Sportmedizinerinnen"
+    ]
+  },
+  "chef": {
+    "src_forms": ["chef", "chefs"],
+    "tgt_forms_male": [
+      "Chef", "Chefs",
+      "Köchin", "Köchinnen",
+      "Chefköchin", "Chefköchinnen",
+      "Küchenchef", "Küchenchefs"
+    ],
+    "tgt_forms_female": [
+      "Chefin", "Chefinnen",
+      "Köchin", "Köchinnen",
+      "Chefköchin", "Chefköchinnen",
+      "Küchenchefin", "Küchenchefinnen"
+    ]
+  },
+  "pedestrian": {
+    "src_forms": ["pedestrian", "pedestrian"],
+    "tgt_forms_male": [
+      "Fußgänger", "Fußgängers", "Fußgängern",
+      "Fussgänger", "Fussgängers", "Fussgängern",
+      "Passant", "Passanten"
+    ],
+    "tgt_forms_female": [
+      "Fußgängerin", "Fußgängerinnen",
+      "Fussgängerin", "Fussgängerinnen",
+      "Passantin", "Passantinnen"
+    ]
+  },
+  "secretary": {
+    "src_forms": ["secretary", "secretaries"],
+    "tgt_forms_male": [
+      "Sekretär", "Sekretärs", "Sekretäre", "Sekretären"
+    ],
+    "tgt_forms_female": [
+      "Sekretärin", "Sekretärinnen"
+    ]
+  },
+  "administrator": {
+    "src_forms": ["administrator", "administrators"],
+    "tgt_forms_male": [
+      "Administrator", "Administrators", "Administratoren",
+      "Verwalter", "Verwalters", "Verwaltern",
+      "Überwacher", "Überwachers", "Überwachern",
+      "Sachbearbeiter", "Sachbearbeiters", "Sachbearbeitern",
+      "Verwaltungsbeamte", "Verwaltungsbeamten",
+      "Beamte", "Beamten"
+    ],
+    "tgt_forms_female": [
+      "Administratorin", "Administratorinnen",
+      "Verwalterin", "Verwalterinnen",
+      "Überwacherin", "Überwacherinnen",
+      "Sachbearbeiterin", "Sachbearbeiterinnen",
+      "Verwaltungsbeamtin", "Verwaltungsbeamtinnen",
+      "Beamtin", "Beamtinnen"
+    ]
+  },
+  "resident": {
+    "src_forms": ["resident", "residents"],
+    "tgt_forms_male": [
+      "Bewohner", "Bewohners", "Bewohnern",
+      "Einwohner", "Einwohners", "Einwohnern",
+      "Anwohner", "Anwohners", "Anwohnern",
+      "Anlieger", "Anliegers", "Anliegern",
+      "Assistenzarzt", "Assistenzarzts", "Assistenzarztes", "Assistenzärzte", "Assistenzärzten"
+    ],
+    "tgt_forms_female": [
+      "Bewohnerin", "Bewohnerinnen",
+      "Einwohnerin", "Einwohnerinnen",
+      "Anwohnerin", "Anwohnerinnen",
+      "Anliegerin", "Anliegerinnen",
+      "Assistenzärztin", "Assistenzärztinnen"
+    ]
+  },
+  "scientist": {
+    "src_forms": ["scientist", "scientists"],
+    "tgt_forms_male": [
+      "Wissenschaftler", "Wissenschaftlers", "Wissenschaftlern",
+      "Wissenschafter", "Wissenschafters", "Wissenschaftern",
+      "Forscher", "Forschers", "Forschern"
+    ],
+    "tgt_forms_female": [
+      "Wissenschaftlerin", "Wissenschaftlerinnen",
+      "Wissenschafterin", "Wissenschafterinnen",
+      "Forscherin", "Forscherinnen"
+    ]
+  },
+  "lawyer": {
+    "src_forms": ["lawyer", "lawyers"],
+    "tgt_forms_male": [
+      "Anwalt", "Anwalts", "Anwaltes", "Anwalte", "Anwälte", "Anwälten",
+      "Rechtsanwalt", "Rechtsanwalts", "Rechtsanwaltes", "Rechtsanwalte", "Rechtsanwälte", "Rechtsanwälten",
+      "Jurist", "Juristen",
+      "Advokat", "Advokaten"
+    ],
+    "tgt_forms_female": [
+      "Anwältin", "Anwältinnen",
+      "Rechtsanwältin", "Rechtsanwältinnen",
+      "Juristin", "Juristinnen",
+      "Advokatin", "Advokatinnen"
+    ]
+  },
+  "cook": {
+    "src_forms": ["cook", "cooks"],
+    "tgt_forms_male": [
+      "Koch", "Kochs", "Koches", "Köche", "Köchen",
+      "Chefkoch", "Chefkochs", "Chefkoches", "Chefköche", "Chefköchen"
+    ],
+    "tgt_forms_female": [
+      "Köchin", "Köchinnen",
+      "Chefköchin", "Chefköchinnen"
+    ]
+  },
+  "buyer": {
+    "src_forms": ["buyer", "buyers"],
+    "tgt_forms_male": [
+      "Käufer", "Käufers", "Käufern",
+      "Einkäufer", "Einkäufers", "Einkäufern",
+      "Auftraggeber", "Auftraggebers", "Auftraggebern",
+      "Besteller", "Bestellers", "Bestellern"
+    ],
+    "tgt_forms_female": [
+      "Käuferin", "Käuferinnen",
+      "Einkäuferin", "Einkäuferinnen",
+      "Auftraggeberin", "Auftraggeberinnen",
+      "Bestellerin", "Bestellerinnen"
+    ]
+  },
+  "painter": {
+    "src_forms": ["painter", "painters"],
+    "tgt_forms_male": [
+      "Maler", "Malers", "Malern",
+      "Kunstmaler", "Kunstmalers", "Kunstmalern",
+      "Lackierer", "Lackierers", "Lackierern"
+    ],
+    "tgt_forms_female": [
+      "Malerin", "Malerinnen",
+      "Kunstmalerin", "Kunstmalerinnen",
+      "Lackiererin", "Lackiererinnen"
+    ]
+  },
+  "cleaner": {
+    "src_forms": ["cleaner", "cleaners"],
+    "tgt_forms_male": [
+      "Putzmann", "Putzmanns", "Putzmannes", "Putzmänner", "Putzmännern",
+      "Straßenkehrer", "Straßenkehrers", "Straßenkehrern",
+      "Strassenkehrer", "Strassenkehrers", "Strassenkehrern",
+      "Straßenfeger", "Straßenfegers", "Straßenfegern",
+      "Strassenfeger", "Strassenfegers", "Strassenfegern",
+      "Raumpfleger", "Raumpflegers", "Raumpflegern"
+    ],
+    "tgt_forms_female": [
+      "Putzfrau", "Putzfrauen",
+      "Straßenkehrerin", "Straßenkehrerinnen",
+      "Strassenkehrerin", "Strassenkehrerinnen",
+      "Straßenfegerin", "Straßenfegerinnen",
+      "Strassenfegerin", "Strassenfegerinnen",
+      "Raumpflegerin", "Raumflegerinnen"
+    ]
+  },
+  "engineer": {
+    "src_forms": ["engineer", "engineers"],
+    "tgt_forms_male": [
+      "Ingenieur", "Ingenieurs", "Ingenieure", "Ingenieuren",
+      "Techniker", "Technikers", "Technikern",
+      "Mechaniker", "Mechanikers", "Mechanikern",
+      "Bauleiter", "Bauleiters", "Bauleitern",
+      "Maschinist", "Maschinisten"
+    ],
+    "tgt_forms_female": [
+      "Ingenieurin", "Ingenieurinnen",
+      "Technikerin", "Technikerinnen",
+      "Mechanikerin", "Mechanikerinnen",
+      "Bauleiterin", "Bauleiterinnen",
+      "Maschinistin", "Maschinistinnen"
+    ]
+  },
+  "worker": {
+    "src_forms": ["worker", "workers"],
+    "tgt_forms_male": [
+      "Arbeiter", "Arbeiters", "Arbeitern",
+      "Arbeitnehmer", "Arbeitnehmers", "Arbeitnehmern"
+    ],
+    "tgt_forms_female": [
+      "Arbeiterin", "Arbeiterinnen",
+      "Arbeitnehmerin", "Arbeitnehmerinnen"
+    ]
+  },
+  "officer": {
+    "src_forms": ["officer", "officers"],
+    "tgt_forms_male": [
+      "Beamte", "Beamten",
+      "Polizist", "Polizisten",
+      "Offizier", "Offiziers", "Offiziere", "Offizieren"
+    ],
+    "tgt_forms_female": [
+      "Beamtin", "Beamtinnen",
+      "Polizistin", "Polizistinnen",
+      "Offizierin", "Offizierinnen"
+    ]
+  },
+  "advisor": {
+    "src_forms": [
+      "advisor", "advisors",
+      "adviser", "advisers"
+    ],
+    "tgt_forms_male": [
+      "Berater", "Beraters", "Beratern",
+      "Betreuer", "Betreuers", "Betreuern"
+    ],
+    "tgt_forms_female": [
+      "Beraterin", "Beraterinnen",
+      "Betreuerin", "Betreuerinnen"
+    ]
+  },
+  "assistant": {
+    "src_forms": ["assistant", "assistants"],
+    "tgt_forms_male": [
+      "Assistent", "Assistenten",
+      "Helfer", "Helfers", "Helfern",
+      "Mitarbeiter", "Mitarbeiters", "Mitarbeitern"
+    ],
+    "tgt_forms_female": [
+      "Assistentin", "Assistentinnen",
+      "Helferin", "Helferinnen",
+      "Mitarbeiterin", "Mitarbeiterinnen"
+    ]
+  },
+  "developer": {
+    "src_forms": ["developer", "developers"],
+    "tgt_forms_male": [
+      "Entwickler", "Entwicklers", "Entwicklern",
+      "Softwareentwickler", "Softwareentwicklers", "Softwareentwicklern",
+      "Programmierer", "Programmierers", "Programmierern",
+      "Bauunternehmer", "Bauunternehmers", "Bauunternehmern"
+    ],
+    "tgt_forms_female": [
+      "Entwicklerin", "Entwicklerinnen",
+      "Softwareentwicklerin", "Softwareentwicklerinnen",
+      "Programmiererin", "Programmiererinnen",
+      "Bauunternehmerin", "Bauunternehmerinnen"
+    ]
+  },
+  "tailor": {
+    "src_forms": ["tailor", "tailors"],
+    "tgt_forms_male": [
+      "Schneider", "Schneiders", "Schneidern"
+    ],
+    "tgt_forms_female": [
+      "Schneiderin", "Schneiderinnen"
+    ]
+  },
+  "practitioner": {
+    "src_forms": ["practitioner", "practitioners"],
+    "tgt_forms_male": [
+      "Praktiker", "Praktikers", "Praktikern",
+      "Arzt", "Arzts", "Arztes", "Ärzte", "Ärzten",
+      "Fachmann", "Fachmanns", "Fachmannes", "Fachmänner", "Fachmännern"
+    ],
+    "tgt_forms_female": [
+      "Praktikerin", "Praktikerinnen",
+      "Ärztin", "Ärztinnen",
+      "Fachfrau", "Fachfrauen"
+    ]
+  },
+  "architect": {
+    "src_forms": ["architect", "architects"],
+    "tgt_forms_male": [
+      "Architekt", "Architekten"
+    ],
+    "tgt_forms_female": [
+      "Architektin", "Architektinnen"
+    ]
+  },
+  "passenger": {
+    "src_forms": ["passenger", "passengers"],
+    "tgt_forms_male": [
+      "Passagier", "Passagiers", "Passagiere", "Passagieren",
+      "Mitfahrer", "Mitfahrers", "Mitfahrern",
+      "Beifahrer", "Beifahrers", "Beifahrern"
+    ],
+    "tgt_forms_female": [
+      "Passagierin", "Passagierinnen",
+      "Mitfahrerin", "Mitfahrerinnen",
+      "Beifahrerin", "Beifahrerinnen"
+    ]
+  },
+  "visitor": {
+    "src_forms": ["visitor", "visitors"],
+    "tgt_forms_male": [
+      "Besucher", "Besuchers", "Besuchern"
+    ],
+    "tgt_forms_female": [
+      "Besucherin", "Besucherinnen"
+    ]
+  },
+  "witness": {
+    "src_forms": ["witness", "witnesses"],
+    "tgt_forms_male": [
+      "Zeuge", "Zeugen",
+      "Trauzeuge", "Trauzeugen"
+    ],
+    "tgt_forms_female": [
+      "Zeugin", "Zeuginnen",
+      "Trauzeugin", "Trauzeuginnen"
+    ]
+  },
+  "employee": {
+    "src_forms": ["employee", "employees"],
+    "tgt_forms_male": [
+      "Arbeitnehmer", "Arbeitnehmers", "Arbeitnehmern",
+      "Mitarbeiter", "Mitarbeiters", "Mitarbeitern",
+      "Arbeiter", "Arbeiters", "Arbeitern"
+    ],
+    "tgt_forms_female": [
+      "Arbeitnehmerin", "Arbeitnehmerinnen",
+      "Mitarbeiterin", "Mitarbeiterinnen",
+      "Arbeiterin", "Arbeiterinnen"
+    ]
+  },
+  "editor": {
+    "src_forms": ["editor", "editors"],
+    "tgt_forms_male": [
+      "Redakteur", "Redakteurs", "Redakteure", "Redakteuren",
+      "Redaktor", "Redaktors", "Redaktoren",
+      "Lektor", "Lektors", "Lektoren",
+      "Verfasser", "Verfassers", "Verfassern",
+      "Bearbeiter", "Bearbeiters", "Bearbeitern",
+      "Herausgeber", "Herausgebers", "Herausgebern"
+    ],
+    "tgt_forms_female": [
+      "Redakteurin", "Redakteurinnen",
+      "Redaktorin", "Redaktorinnen",
+      "Lektorin", "Lektorinnen",
+      "Verfasserin", "Verfasserinnen",
+      "Bearbeiterin", "Bearbeiterinnen",
+      "Herausgeberin", "Herausgeberinnen"
+    ]
+  },
+  "chief": {
+    "src_forms": ["chief", "chiefs"],
+    "tgt_forms_male": [
+      "Leiter", "Leiters", "Leitern",
+      "Vorsteher", "Vorstehers", "Vorstehern",
+      "Anführer", "Anführers", "Anführern",
+      "Chef", "Chefs"
+    ],
+    "tgt_forms_female": [
+      "Leiterin", "Leiterinnen",
+      "Vorsteherin", "Vorsteherinnen",
+      "Anführerin", "Anführerinnen",
+      "Chefin", "Chefinnen"
+    ]
+  },
+  "writer": {
+    "src_forms": ["writer", "writers"],
+    "tgt_forms_male": [
+      "Autor", "Autors", "Autoren",
+      "Schriftsteller", "Schriftstellers", "Schriftstellern",
+      "Schreiber", "Schreibers", "Schreibern",
+      "Verfasser", "Verfassers", "Verfassern"
+    ],
+    "tgt_forms_female": [
+      "Autorin", "Autorinnen",
+      "Schriftstellerin", "Schriftstellerinnen",
+      "Schreiberin", "Schreiberinnen",
+      "Verfasserin", "Verfasserinnen"
+    ]
+  },
+  "guard": {
+    "src_forms": ["guard", "guards"],
+    "tgt_forms_male": [
+      "Wächter", "Wächters", "Wächtern",
+      "Wachmann", "Wachmanns", "Wachmannes", "Wachmänner", "Wachmännern",
+      "Wärter", "Wärters", "Wärtern"
+    ],
+    "tgt_forms_female": [
+      "Wächterin", "Wächterinnen",
+      "Wachfrau", "Wachfrauen",
+      "Wärterin", "Wärterinnen"
+    ]
+  },
+  "teacher": {
+    "src_forms": ["teacher", "teachers"],
+    "tgt_forms_male": [
+      "Lehrer", "Lehrers", "Lehrern",
+      "Lehrmeister", "Lehrmeisters", "Lehrmeistern"
+    ],
+    "tgt_forms_female": [
+      "Lehrerin", "Lehrerinnen",
+      "Lehrmeisterin", "Lehrmeisterinnen"
+    ]
+  },
+  "doctor": {
+    "src_forms": ["doctor", "doctors"],
+    "tgt_forms_male": [
+      "Arzt", "Arzts", "Arztes", "Ärzte", "Ärzten",
+      "Hausarzt", "Hausarzts", "Hausarztes", "Hausärzte", "Hausärzten",
+      "Facharzt", "Facharzts", "Facharztes", "Fachärzte", "Fachärzten",
+      "Notarzt", "Notarzts", "Notarztes", "Notärzte", "Notärzten",
+      "Familienarzt", "Familienarzts", "Familienarztes", "Familienärzte", "Familienärzten",
+      "Betriebsarzt", "Betriebsarzts", "Betriebsarztes", "Betriebsärzte", "Betriebsärzten",
+      "Militärarzt", "Militärarzts", "Militärarztes", "Militärärzte", "Militärärzten",
+      "Doktor", "Doktors", "Doktoren",
+      "Mediziner", "Mediziners", "Medizinern",
+      "Humanmediziner", "Humanmediziners", "Humanmedizinern",
+      "Sportmediziner", "Sportmediziners", "Sportmedizinern"
+    ],
+    "tgt_forms_female": [
+      "Ärztin", "Ärztinnen",
+      "Hausärztin", "Hausärztinnen",
+      "Fachärztin", "Fachärztinnen",
+      "Notärztin", "Notärztinnen",
+      "Familienärztin", "Familienärztinnen",
+      "Betriebsärztin", "Betriebsärztinnen",
+      "Militärärztin", "Militärärztinnen",
+      "Doktorin", "Doktorinnen",
+      "Medizinerin", "Medizinerinnen",
+      "Humanmedizinerin", "Humanmedizinerinnen",
+      "Sportmedizinerin", "Sportmedizinerinnen"
+    ]
+  },
+  "designer": {
+    "src_forms": ["designer", "designers"],
+    "tgt_forms_male": [
+      "Designer", "Designers", "Designern",
+      "Gestalter", "Gestalters", "Gestaltern",
+      "Planer", "Planers", "Planern",
+      "Graphiker", "Graphikers", "Graphikern",
+      "Grafiker", "Grafikers", "Grafikern"
+    ],
+    "tgt_forms_female": [
+      "Designerin", "Designerinnen",
+      "Gestalterin", "Gestalterinnen",
+      "Planerin", "Planerinnen",
+      "Graphikerin", "Graphikerinnen",
+      "Grafikerin", "Grafikerinnen"
+    ]
+  },
+  "specialist": {
+    "src_forms": ["specialist", "specialists"],
+    "tgt_forms_male": [
+      "Spezialist", "Spezialisten",
+      "Experte", "Experten",
+      "Facharzt", "Facharzts", "Facharztes", "Fachärzte", "Fachärzten",
+      "Fachmann", "Fachmanns", "Fachmannes", "Fachmänner", "Fachmännern"
+    ],
+    "tgt_forms_female": [
+      "Spezialistin", "Spezialistinnen",
+      "Expertin", "Expertinnen",
+      "Fachärztin", "Fachärztinnen",
+      "Fachfrau", "Fachfrauen"
+    ]
+  },
+  "manager": {
+    "src_forms": ["manager", "managers"],
+    "tgt_forms_male": [
+      "Leiter", "Leiters", "Leitern",
+      "Manager", "Managers", "Managern",
+      "Direktor", "Direktors", "Direktoren",
+      "Geschäftsführer", "Geschäftsführers", "Geschäftsführern",
+      "Trainer", "Trainers", "Trainern"
+    ],
+    "tgt_forms_female": [
+      "Leiterin", "Leiterinnen",
+      "Managerin", "Managerinnen",
+      "Direktorin", "Direktorinnen",
+      "Geschäftsführerin", "Geschäftsführerinnen",
+      "Trainerin", "Trainerinnen"
+    ]
+  },
+  "patient": {
+    "src_forms": ["patient", "patients"],
+    "tgt_forms_male": [
+      "Patient", "Patienten"
+    ],
+    "tgt_forms_female": [
+      "Patientin", "Patientinnen"
+    ]
+  },
+  "student": {
+    "src_forms": ["student", "students"],
+    "tgt_forms_male": [
+      "Schüler", "Schülers", "Schülern",
+      "Student", "Studenten"
+    ],
+    "tgt_forms_female": [
+      "Schülerin", "Schülerinnen",
+      "Studentin", "Studentinnen"
+    ]
+  },
+  "CEO": {
+    "src_forms": ["CEO", "CEOs"],
+    "tgt_forms_male": [
+      "Direktor", "Direktors", "Direktoren",
+      "Generaldirektor", "Generaldirektors", "Generaldirektoren",
+      "Geschäftsführer", "Geschäftsführers", "Geschäftsführern",
+      "Hauptgeschäftsführer", "Hauptgeschäftsführers", "Hauptgeschäftsführern",
+      "Firmenchef", "Firmenchefs",
+      "Vorstandschef", "Vorstandschefs"
+    ],
+    "tgt_forms_female": [
+      "Direktorin", "Direktorinnen",
+      "Generaldirektorin", "Generaldirektorinnen",
+      "Geschäftsführerin", "Geschäftsführerinnen",
+      "Hauptgeschäftsführerin", "Hauptgeschäftsführerinnen",
+      "Firmenchefin", "Firmenchefinnen",
+      "Vorstandschefin", "Vorstandschefinnen"
+    ]
+  },
+  "client": {
+    "src_forms": ["client", "clients"],
+    "tgt_forms_male": [
+      "Kunde", "Kunden",
+      "Auftraggeber", "Auftraggebers", "Auftraggebern",
+      "Klient", "Klienten",
+      "Mandant", "Mandanten"
+    ],
+    "tgt_forms_female": [
+      "Kundin", "Kundinnen",
+      "Auftraggeberin", "Auftraggeberinnen",
+      "Klientin", "Klientinnen",
+      "Mandantin", "Mandantinnen"
+    ]
+  },
+  "owner": {
+    "src_forms": ["owner", "owners"],
+    "tgt_forms_male": [
+      "Besitzer", "Besitzers", "Besitzern",
+      "Eigentümer", "Eigentümers", "Eigentümern",
+      "Inhaber", "Inhabers", "Inhabern",
+      "Eigner", "Eigners", "Eignern",
+      "Halter", "Halters", "Haltern"
+    ],
+    "tgt_forms_female": [
+      "Besitzerin", "Besitzerinnen",
+      "Eigentümerin", "Eigentümerinnen",
+      "Inhaberin", "Inhaberinnen",
+      "Eignerin", "Eignerinnen",
+      "Halterin", "Halterinnen"
+    ]
+  },
+  "driver": {
+    "src_forms": ["driver", "drivers"],
+    "tgt_forms_male": [
+      "Fahrer", "Fahrers", "Fahrern",
+      "Chauffeur", "Chauffeurs", "Chauffeure", "Chauffeuren"
+    ],
+    "tgt_forms_female": [
+      "Fahrerin", "Fahrerinnen",
+      "Chauffeurin", "Chauffeurinnen"
+    ]
+  },
+  "customer": {
+    "src_forms": ["customer", "customers"],
+    "tgt_forms_male": [
+      "Kunde", "Kunden",
+      "Käufer", "Käufers", "Käufern"
+    ],
+    "tgt_forms_female": [
+      "Kundin", "Kundinnen",
+      "Käuferin", "Käuferinnen"
+    ]
+  }
+}
