@@ -38,7 +38,7 @@ The code is directed at MT models trained with Fairseq v0.x (https://github.com/
 # Usage Examples
 
 ## Basic Example of Contrastive Conditioning
-The code below reproduces Table 1 of the [paper](#).
+The code below reproduces Table 1 of the [paper](https://openreview.net/forum?id=RvO9DqoWI9V).
 
 ```python
 from translation_models.fairseq_models import load_sota_evaluator
