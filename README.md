@@ -1,5 +1,5 @@
 
-Code for the paper ["Contrastive Conditioning for Assessing Disambiguation in MT: A Case Study of Distilled Bias"](https://openreview.net/forum?id=RvO9DqoWI9V) (EMNLP 2021). A high-level introduction can be found in Jannis' **blog ([part 1](https://vamvas.ch/evaluating-black-box-mt-with-contrastive-conditioning) | [part 2](https://vamvas.ch/when-mt-distillation-leads-to-bias))**, and a more detailed description in the **[paper](https://openreview.net/forum?id=RvO9DqoWI9V)**.
+Code for the paper ["Contrastive Conditioning for Assessing Disambiguation in MT: A Case Study of Distilled Bias"](https://aclanthology.org/2021.emnlp-main.803/) (EMNLP 2021). A high-level introduction can be found in Jannis' **blog ([part 1](https://vamvas.ch/evaluating-black-box-mt-with-contrastive-conditioning) | [part 2](https://vamvas.ch/when-mt-distillation-leads-to-bias))**, and a more detailed description in the **[paper](https://aclanthology.org/2021.emnlp-main.803/)**.
 
 The code allows you to evaluate English→X machine translation systems on two probing tasks for disambiguation, using contrastive conditioning as an evaluation protocol.
 
@@ -38,7 +38,7 @@ The code is directed at MT models trained with Fairseq v0.x (https://github.com/
 # Usage Examples
 
 ## Basic Example of Contrastive Conditioning
-The code below reproduces Table 1 of the [paper](https://openreview.net/forum?id=RvO9DqoWI9V).
+The code below reproduces Table 1 of the [paper](https://aclanthology.org/2021.emnlp-main.803/).
 
 ```python
 from translation_models.fairseq_models import load_sota_evaluator
@@ -139,13 +139,16 @@ print(winomt_result)
 # Citation
 
 ```bibtex
-@inproceedings{vamvas-etal-2021-contrastive,
-    title = "Contrastive Conditioning for Assessing Disambiguation in {MT}: A Case Study of Distilled Bias",
-    author = "Vamvas, Jannis and
+@inproceedings{vamvas-sennrich-2021-contrastive,
+    title = "Contrastive Conditioning for Assessing Disambiguation in {MT}: {A} Case Study of Distilled Bias",
+    author = "Vamvas, Jannis  and
       Sennrich, Rico",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
-    publisher = "Association for Computational Linguistics"
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.803",
+    pages = "10246--10265",
 }
 ```
